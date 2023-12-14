@@ -1,0 +1,17 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "vinay",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "socket.io": "^4.7.2"
+  }
+}
