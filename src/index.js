@@ -5,7 +5,7 @@ import cors from "cors";
 dotenv.config();
 const app = express();
 app.use(cors());
-const io = new Server();
+const io = new Server({ cors: "http://localhost:3000/" });
 const PORT = process.env.PORT || 8000;
 let onlineUsers = [];
 
